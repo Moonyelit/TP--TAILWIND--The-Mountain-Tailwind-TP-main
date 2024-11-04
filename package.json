@@ -1,10 +1,10 @@
 {
-  "name": "tp--tailwind--the-mountain-tailwind-tp-main",
+  "name": "tp-tailwindcss",
   "version": "1.0.0",
-  "description": "Vous allez reproduire une maquette en utilisant tailwind",
+  "description": "Nous utiliserons uniquement Tailwindcss pour réaliser ce TP.",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss build -i css-2/input.css -o css-2/output.css --watch"
+    "build:css": "tailwindcss build -i css/input.css -o css/output.css --watch"
   },
   "keywords": [],
   "author": "",
