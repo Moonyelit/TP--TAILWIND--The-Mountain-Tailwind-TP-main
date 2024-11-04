@@ -19,24 +19,29 @@
         font-size: 11px;
         text-align: center;
       }
+      .font-arvo-regular {
+        font-family: "Arvo", serif;
+      }
     </style>
   </head>
   <body>
     <div>
       <!--NAVIGATEUR-->
-
       <header
         id="home"
-        class="h-screen bg-Mountain-King bg-cover bg-center w-full p-10"
+        class="min-h-screen bg-Mountain-King bg-cover bg-center w-full p-10 flex flex-col justify-center items-center mb-10"
       >
-        <nav>
+        <nav class="mb-8 w-full">
           <div class="flex gap-12 items-center justify-center mb-10">
             <div class="flex">
               <img src="images/your_logo.png" class="max-w-32" alt="logo" />
               <p class="text-3xl mt-1.5">LOGO</p>
             </div>
-            <img class="sm:block max-w-12" lg:hidden"
-            src="images/burger-menu-svgrepo-com.svg" alt="menu burger" />
+            <img
+              class="sm:block max-w-12 lg:hidden"
+              src="images/burger-menu-svgrepo-com.svg"
+              alt="menu burger"
+            />
           </div>
 
           <div id="menu" class="hidden">
@@ -50,106 +55,148 @@
             <a href="#">Download</a>
           </div>
         </nav>
-        <div class="text-neutral-off-white text-center flex flex-col gap-5">
-          <h1 class="text-4xl leading-9">
+        <div
+          class="text-neutral-off-white text-center flex flex-col gap-5 w-full max-w-3xl"
+        >
+          <h1 class="text-4xl leading-[3.5rem] font-arvo-regular">
             In the hall of the
             <span class="text-5xl font-bold">Mountain King</span>
           </h1>
 
-          <p clas="text-lg">
+          <p class="text-lg leading-[2rem]">
             This is a simple hero unit, a simple jumbotron-style component for
             calling extra attention to featured content or information.
           </p>
-
-          <a
-            href="#"
-            class="bg-primary-cyan p-5 flex justify-center items-center uppercase tracking-[0.2em] font-bold w-[55%]"
-            >Read more</a
-          >
-          <a
-            href="#"
-            class="bg-primary-red p-5 flex justify-center items-center uppercase tracking-[0.2em] font-bold w-[55%]"
-            >Download</a
-          >
+          <div class="flex flex-col items-center">
+            <a
+              href="#"
+              class="bg-primary-cyan p-5 flex justify-center items-center tracking-[0.2em] w-[55%]"
+              >Learn more</a
+            >
+            <a
+              href="#"
+              class="bg-primary-red p-5 flex justify-center items-center tracking-[0.2em] w-[50%]"
+              >Download</a
+            >
+          </div>
         </div>
       </header>
 
       <main>
         <!-- SECTION - Features -->
-        <section>
-          <div>
-            <article class="articles">
-              <img src="images/Pencil.svg" class="icones" />
-              <h3>Consectetur Risus</h3>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
-              </p>
-            </article>
-            <article>
-              <img src="images/camera.svg" class="icones" />
-              <h3>Ultricies Aenean</h3>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget
-        quam. Integer posuere erat a ante venenatis dapibus posuere velit
-        aliquet. Donec ullamcorper nulla non metus auctor fringilla. 
-              </p>
-            </article>
-            <article class="articles">
-              <img src="images/flag.svg" class="icones" />
-              <h3>    Cras Sollicitudin 
-             </h3>
-              <p>
-                Etiam porta sem malesuada magna mollis euismod. Aenean eu
-                leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-                Maecenas faucibus mollis interdum.
-              </p>
-            </article>
-          </div>
+        <section id="features" class="min-h flex flex-col gap-4 mb-10">
+          <article
+            class="p-5 rounded-lg text-center flex flex-col items-center gap-5"
+          >
+            <img
+              src="images/Pencil.jpg"
+              alt="Pencil Icon"
+              class="w-16 h-16 mx-auto"
+            />
+            <h3
+              class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris"
+            >
+              Consectetur Risus
+            </h3>
+            <p class="text-primary-gris">
+              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+              id elit non mi porta gravida at eget metus. Nullam id dolor id
+              nibh ultricies vehicula ut id elit.
+            </p>
+          </article>
+
+          <article
+            class="p-5 rounded-lg text-center flex flex-col items-center gap-5"
+          >
+            <img
+              src="images/camera.jpg"
+              alt="Camera Icon"
+              class="w-16 h-16 mx-auto"
+            />
+            <h3
+              class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris"
+            >
+              Ultricies Aenean
+            </h3>
+            <p class="text-primary-gris">
+              Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Integer posuere erat a ante venenatis dapibus posuere velit
+              aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+          </article>
+          <article
+            class="p-5 rounded-lg text-center flex flex-col items-center gap-5"
+          >
+            <img
+              src="images/flag.jpg"
+              alt="Flag Icon"
+              class="w-16 h-16 mx-auto"
+            />
+            <h3
+              class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris"
+            >
+              Cras Sollicitudin
+            </h3>
+            <p class="text-primary-gris">
+              Etiam porta sem malesuada magna mollis euismod. Aenean eu leo
+              quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+              Maecenas faucibus mollis interdum.
+            </p>
+          </article>
         </section>
 
         <!-- SECTION : About me -->
-<h2>
-Lingula Mattis Ornare Ultricies</h2>
+        <article id="about-me" class="min-h-screen bg-Mountain-King bg-cover bg-center w-full p-10 flex flex-col justify-center items-center mb-10">
+          <h2>Lingula Mattis Ornare Ultricies</h2>
+          <h3>Pellentesque Cursus Amet Parturient Etiam</h3>
+          <p>
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+            id elit non mi porta gravida at eget metus. Nullam id dolor id nibh
+            ultricies vehicula ut id elit.
+          </p>
 
+          <div>Ultricies 23,578</div>
+          <div>Fermentum 12,702</div>
+        </article>
 
-        <h3> Pellentesque Cursus Amet Parturient Etiam  </h3>
-        
-        <p> Cras justo odio, dapibus ac
-        facilisis in, egestas eget quam. Donec id elit non mi porta gravida at
-        eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+          sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non
+          magna. Donec sed odio dui. Curabitur blandit tempus porttitor. Nullam
+          id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem
+          malesuada magna mollis euismod. Donec id elit non mi porta gravida at
+          eget metus. Donec id elit non mi porta gravida at eget metus. Integer
+          posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce
+          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+          fermentum massa justo sit amet risus. Cras justo odio, dapibus ac
+          facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra
+          augue. Take a Look Donec sed odio dui. Integer posuere erat a ante
+          venenatis dapibus posuere velit aliquet. Praesent commodo cursus
+          magna, vel scelerisque nisl consectetur et. Aenean eu leo quam.
+          Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis
+          mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem
+          lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac
+          facilisis in, egestas eget quam. Praesent commodo cursus magna, vel
+          scelerisque nisl consectetur et. Fermentum Dapibus Nibh Etiam Risus
+          Bibendum Nullam id dolor id nibh ultricies vehicula ut id elit.
+        </p>
 
+        <p>
+          GRID LOGOS Maecenas sed diam eget risus varius blandit sit amet non
+          magna. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+          venenatis vestibulum. Cras mattis consectetur et purus sit amet
+          fermentum. Praesent commodo cursus magna, vel scelerisque nisl
+          consectetur et. Praesent commodo cursus magna, vel scelerisque nisl
+          consectetur et.
+        </p>
 
-        <div>Ultricies 23,578 </div>
-        <div> Fermentum 12,702 </div>
-        
-        Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi
-        erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam
-        eget risus varius blandit sit amet non magna. Donec sed odio dui.
-        Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies
-        vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
-        Donec id elit non mi porta gravida at eget metus. Donec id elit non mi
-        porta gravida at eget metus. Integer posuere erat a ante venenatis
-        dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo,
-        tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae
-        elit libero, a pharetra augue. Take a Look Donec sed odio dui. Integer
-        posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent
-        commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo
-        quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis
-        mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
-        odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia
-        quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in,
-        egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl
-        consectetur et. Fermentum Dapibus Nibh Etiam Risus Bibendum Nullam id
-        dolor id nibh ultricies vehicula ut id elit. GRID LOGOS Maecenas sed
-        diam eget risus varius blandit sit amet non magna. Aenean eu leo quam.
-        Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis
-        consectetur et purus sit amet fermentum. Praesent commodo cursus magna,
-        vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel
-        scelerisque nisl consectetur et. Your Email Here… Submit Newsletter
+        <form>
+          <label for="email">Your Email Here…</label>
+          <input type="email" id="email" name="email" required />
+          <button type="submit">Submit Newsletter</button>
+        </form>
       </main>
       <footer>
         Your Logo © 2016 Your Company. Designed and Developed by The Maitre jet

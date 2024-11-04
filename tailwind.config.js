@@ -7,11 +7,11 @@ module.exports = {
         primary: {
           cyan: "#22d3ee",
           red: "#e11d48",
+          gris: "#545454",
         },
         neutral: {
           "off-white": "hsl(36, 100%, 99%)",
           "dark-grayish-blue": "hsl(236, 13%, 42%)",
-          "grayish-blue": "hsl(233, 8%, 79%)",
           "very-dark-blue": "hsl(240, 100%, 5%)",
         },
       },
@@ -23,7 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         "Mountain-King": "url('/images/bg_header.jpg')",
-        "About-me": "url('/images/bg_nuage.jpg')",
+        "About-me": "url('/images/bg_')",
         "My-history": "url('/images/bg_appareil_photo.jpg')",
       },
     },
