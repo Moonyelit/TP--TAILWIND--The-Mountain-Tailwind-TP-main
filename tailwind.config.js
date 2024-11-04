@@ -23,7 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         "Mountain-King": "url('/images/bg_header.jpg')",
-        "About-me": "url('/images/bg_')",
+        "About-me": "url('/images/bg_nuage.jpg')",
         "My-history": "url('/images/bg_appareil_photo.jpg')",
       },
     },
