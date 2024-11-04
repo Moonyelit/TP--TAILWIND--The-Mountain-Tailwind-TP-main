@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          cyan: "#22d3ee" ,
+          cyan: "#22d3ee",
           red: "#e11d48",
         },
         neutral: {
@@ -22,9 +22,10 @@ module.exports = {
         paragraph: "15px",
       },
       backgroundImage: {
-        'hero-pattern': "url('/img/hero-pattern.svg')",
-        'footer-texture': "url('/img/footer-texture.png')",
-      }
+        "Mountain-King": "url('/images/bg_header.jpg')",
+        "About-me": "url('/images/bg_nuage.jpg')",
+        "My-history": "url('/images/bg_appareil_photo.jpg')",
+      },
     },
   },
   plugins: [],
