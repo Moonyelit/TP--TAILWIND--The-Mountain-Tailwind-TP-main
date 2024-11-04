@@ -7,23 +7,33 @@
 
     <link rel="stylesheet" href="css/output.css" />
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
       rel="stylesheet"
-    /> -->
+    />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <div>
       <!--NAVIGATEUR-->
 
-      <header id="home" class=" h-screen bg-Mountain-King bg-cover bg-center w-full">
+      <header
+        id="home"
+        class="h-screen bg-Mountain-King bg-cover bg-center w-full p-10"
+      >
         <nav>
-          <div class="flex justify-between items-center">
+          <div class="flex gap-12 items-center justify-center mb-10">
             <div class="flex">
               <img src="images/your_logo.png" class="max-w-32" alt="logo" />
-              <p>LOGO</p>
+              <p class="text-3xl mt-1.5">LOGO</p>
             </div>
             <img class="sm:block max-w-12" lg:hidden"
             src="images/burger-menu-svgrepo-com.svg" alt="menu burger" />
@@ -40,16 +50,71 @@
             <a href="#">Download</a>
           </div>
         </nav>
+        <div
+          class="text-neutral-off-white text-center flex flex-col gap-5"
+        >
+          <h1 class="text-4xl leading-9">
+            In the hall of the
+            <span class="text-5xl font-bold">Mountain King</span>
+          </h1>
 
-        <h1>In the hall of the Mountain King</h1>
+          <p clas="text-lg">
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information.
+          </p>
 
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information. Learn More
-        Download
+          <a
+            href="#"
+            class="bg-primary-cyan p-5 flex justify-center items-center uppercase tracking-[0.2em] font-bold w-[55%]"
+            >Read more</a
+          >
+          <a
+            href="#"
+            class="bg-primary-red p-5 flex justify-center items-center uppercase tracking-[0.2em] font-bold w-[55%]"
+            >Download</a
+          >
+        </div>
       </header>
 
       <main>
-        Consectetur Risus Cras justo odio, dapibus ac facilisis in, egestas eget
+        <section>
+          <h2>Consectetur Risus </h2>
+          <div class="get-involved-articles">
+            <article class="articles">
+              <img
+                src="images/image-de-lutilisateur-avec-fond-noir.png"
+                class="icones"
+              />
+              <h3>STUDENTS</h3>
+              <p>
+                Want to learn how to code ? Want to help us fet to 1,000,000 lines
+                ? Click the button below and we'll let you know how to get
+                involved.
+              </p>
+              <a href="" class="cta-petit"> Start Learning >></a>
+            </article>
+            <article class="articles">
+              <img src="images/stylo.png" class="icones" />
+              <h3>EDUCATORS</h3>
+              <p>
+                Want to bring this initiative to your school or institution ?
+                Awesome! Click the button below and we'll make it happen.
+              </p>
+              <a href="" class="cta-petit"> Join The Iniative >></a>         
+            </article>
+            <article class="articles">
+              <img src="images/fiscale.png" class="icones" />
+              <h3>SPONSORS</h3>
+              <p>
+                We love all the support we get to help host more events, and
+                empower more lives with the knowledge of coding. Click to get
+                involved
+              </p>
+              <a href="" class="cta-petit"> Give support >></a>
+            </article>
+          </div>
+        </section>
+        Cras justo odio, dapibus ac facilisis in, egestas eget
         quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor
         id nibh ultricies vehicula ut id elit. Ultricies Aenean Cras justo odio,
         dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante
