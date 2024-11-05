@@ -248,17 +248,17 @@
         </article>
 
         <!-- SECTION 5 : MY PHOTOS-->
-        <section id="my-photos=" class=" my-20 flex flex-col gap-3">
+        <section id="my-photos=" class="my-20 flex flex-col gap-3">
           <img src="/images/enceinte.jpeg" alt="enceinte" />
           <img src="/images/fuji.jpeg" alt="mont fuji" />
           <img src="/images/pont.jpeg" alt="Pont rouge" />
           <img src="/images/alone.jpeg" alt="personne tenant une camera" />
           <img src="/images/avion.jpeg" alt="avion crash" />
-          <img src="/images/motel.jpeg" alt="affiche motel">
+          <img src="/images/motel.jpeg" alt="affiche motel" />
         </section>
 
         <!-- SECTION 5 : LOGO-->
-        <section id="LOGO=" class=" my-20 flex flex-col gap-3 p-10">
+        <section id="LOGO=" class="my-20 flex flex-col gap-3 p-10">
           <img src="/images/advantage.jpg" alt="logo advantage" />
           <img src="/images/company.jpg" alt="lOGO company name" />
           <img src="/images/parallon.jpg" alt="Logo parallon" />
@@ -266,21 +266,33 @@
           <img src="/images/squarespace.png" alt="Logo squarespace" />
         </section>
 
-        <!-- SECTION 7 : My blog -->
-        <h2>Maecenas sed diam eget risus varius blandit sit amet non magna.</h2>
+        <!-- SECTION 7 : Newsletter -->
+        <form
+          id="Newsletter"
+          class="bg-Newsletter bg-[length:1800px_2500px] w-full p-10 text-neutral-off-white flex flex-col gap-5"
+        >
+        <div class="flex flex-col gap-5">
+            <h2 class="text-3xl font-arvo-regular">
+              Maecenas sed diam eget risus varius blandit sit amet non magna.
+            </h2>
 
-        <p>
-          Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-          vestibulum. Cras mattis consectetur et purus sit amet fermentum.
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-        </p>
+            <p>
+              Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+              vestibulum. Cras mattis consectetur et purus sit amet fermentum.
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur
+              et. Praesent commodo cursus magna, vel scelerisque nisl
+              consectetur et.
+            </p>
+          </div>
+            
+          <div>
+            <input class="p-2" type="text" placeholder="Your Email Here..." name="name" required>
+          </div>
 
-        <form>
-          <label for="email">Your Email Here…</label>
-          <input type="email" id="email" name="email" required />
-          <button type="submit">Submit Newsletter</button>
-        </form>
+          <div class="bg-primary-red p-2 flex w-[70%]">
+            <input type="submit" value="Subscribe Newsletter">
+          </div>
+        </section>
       </main>
       <footer>
         Your Logo © 2016 Your Company. Designed and Developed by The Maitre jet
