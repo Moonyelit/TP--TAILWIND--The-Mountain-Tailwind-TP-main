@@ -8,6 +8,7 @@ module.exports = {
           cyan: "#22d3ee",
           red: "#e11d48",
           gris: "#545454",
+          "gris-sombre": "#24323b",
         },
         neutral: {
           "off-white": "hsl(36, 100%, 99%)",
