@@ -795,6 +795,14 @@ video {
   width: 80%;
 }
 
+.w-\[90\] {
+  width: 90;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .max-w-12 {
   max-width: 3rem;
 }
@@ -951,6 +959,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-24 {
+  padding: 6rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -989,6 +1001,16 @@ video {
 .px-32 {
   padding-left: 8rem;
   padding-right: 8rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .text-center {
