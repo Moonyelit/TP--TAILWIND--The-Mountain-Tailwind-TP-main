@@ -1,276 +1,227 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The-Mountain</title>
 
-    <link rel="stylesheet" href="css/output.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The-Mountain</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="css/output.css" />
 
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .font-arvo-regular {
-        font-family: "Arvo", serif;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-      <!--NAVIGATEUR-->
-      <header
-        id="home"
-        class="min-h-screen bg-Mountain-King bg-cover bg-center p-10 flex flex-col items-center justify-center"
-      >
-        <nav class="w-full md:m-150 ">
-          <div class="flex gap-12 items-center justify-center mb-10 sm:mb-40">
-            <div class="flex items-center justify-center ">
-              <img src="images/your_logo.png" alt="logo" />
-              <p class="text-3xl mt-1.5 sm::text-4xl md:text-5xl lg:text-6xl ">LOGO</p>
-            </div>
-            <img
-              class="sm:block max-w-12 lg:hidden"
-              src="images/burger-menu-svgrepo-com.svg"
-              alt="menu burger"
-            />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" />
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .font-arvo-regular {
+      font-family: "Arvo", serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <!--NAVIGATEUR-->
+    <header id="home"
+      class="min-h-screen bg-Mountain-King bg-cover bg-center p-10 flex flex-col items-center justify-center">
+      <nav class="w-full md:m-150 ">
+        <div class="flex gap-12 items-center justify-center mb-10 sm:mb-40">
+          <div class="flex items-center justify-center ">
+            <img src="images/your_logo.png" alt="logo" />
+            <p class="text-3xl mt-1.5 sm::text-4xl md:text-5xl lg:text-6xl ">LOGO</p>
           </div>
+          <img class="sm:block max-w-12 lg:hidden" src="images/burger-menu-svgrepo-com.svg" alt="menu burger" />
+        </div>
 
-          <div id="menu" class="hidden">
-            <a href="#">Home</a>
-            <a href="#">Features</a>
-            <a href="#">About me </a>
-            <a href="#">My blog</a>
-            <a href="#">My history </a>
-            <a href="#">Look my Photos </a>
-            <a href="#">Get in Touch!</a>
-            <a href="#">Download</a>
-          </div>
-        </nav>
-        <div
-          class="text-neutral-off-white text-center flex flex-col gap-5 w-full max-w-3xl md:px-20"
-        >
-          <h1 class="text-4xl leading-[3.5rem] font-arvo-regular">
-            In the hall of the
-            <span class="text-5xl font-bold">Mountain King</span>
-          </h1>
+        <div id="menu" class="hidden">
+          <a href="#">Home</a>
+          <a href="#">Features</a>
+          <a href="#">About me </a>
+          <a href="#">My blog</a>
+          <a href="#">My history </a>
+          <a href="#">Look my Photos </a>
+          <a href="#">Get in Touch!</a>
+          <a href="#">Download</a>
+        </div>
+      </nav>
+      <div class="text-neutral-off-white text-center flex flex-col gap-5 w-full max-w-3xl md:px-20">
+        <h1 class="text-4xl leading-[3.5rem] font-arvo-regular">
+          In the hall of the
+          <span class="text-5xl font-bold">Mountain King</span>
+        </h1>
 
-          <p class="text-lg leading-[2rem]">
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
+        <p class="text-lg leading-[2rem]">
+          This is a simple hero unit, a simple jumbotron-style component for
+          calling extra attention to featured content or information.
+        </p>
+        <div class="flex flex-col items-center md:flex-row gap-2">
+          <a href="#" class="bg-primary-cyan p-5 flex justify-center items-center tracking-[0.2em] w-[55%]">Learn
+            more</a>
+          <a href="#" class="bg-primary-red p-5 flex justify-center items-center tracking-[0.2em] w-[50%]">Download</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECTION - Features -->
+      <section id="features" class="min-h flex flex-col gap-4 mb-10">
+        <article class="p-5 rounded-lg text-center flex flex-col items-center gap-5">
+          <img src="images/Pencil.jpg" alt="Pencil Icon" class="w-16 h-16 mx-auto" />
+          <h3 class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris">
+            Consectetur Risus
+          </h3>
+          <p class="text-primary-gris">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+            id elit non mi porta gravida at eget metus. Nullam id dolor id
+            nibh ultricies vehicula ut id elit.
           </p>
-          <div class="flex flex-col items-center md:flex-row gap-2">
-            <a
-              href="#"
-              class="bg-primary-cyan p-5 flex justify-center items-center tracking-[0.2em] w-[55%]"
-              >Learn more</a
-            >
-            <a
-              href="#"
-              class="bg-primary-red p-5 flex justify-center items-center tracking-[0.2em] w-[50%]"
-              >Download</a
-            >
+        </article>
+
+        <article class="p-5 rounded-lg text-center flex flex-col items-center gap-5">
+          <img src="images/camera.jpg" alt="Camera Icon" class="w-16 h-16 mx-auto" />
+          <h3 class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris">
+            Ultricies Aenean
+          </h3>
+          <p class="text-primary-gris">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+            Integer posuere erat a ante venenatis dapibus posuere velit
+            aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </article>
+        <article class="p-5 rounded-lg text-center flex flex-col items-center gap-5">
+          <img src="images/flag.jpg" alt="Flag Icon" class="w-16 h-16 mx-auto" />
+          <h3 class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris">
+            Cras Sollicitudin
+          </h3>
+          <p class="text-primary-gris">
+            Etiam porta sem malesuada magna mollis euismod. Aenean eu leo
+            quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+            Maecenas faucibus mollis interdum.
+          </p>
+        </article>
+      </section>
+
+      <!-- SECTION 2 : About me -->
+      <article id="about-me" class="bg-About-me bg-cover bg-center w-full px-10 text-neutral-off-white mb-8">
+        <div class="bg-primary-cyan bg-opacity-40 p-5 w-full">
+          <div class="mt-5 flex flex-col items-center gap-5 mb-8 sm:items-start">
+            <h2 class="text-3xl font-arvo-regular">
+              Lingula Mattis Ornare Ultricies
+            </h2>
+            <h3 class="text-lg font-bold">
+              Pellentesque Cursus Amet Parturient Etiam
+            </h3>
+            <p>
+              Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+              Donec id elit non mi porta gravida at eget metus. Nullam id
+              dolor id nibh ultricies vehicula ut id elit.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center text-center gap-5">
+            <div
+              class="p-3 bg-opacity-50 border border-neutral-off-white w-32 min-h-32 flex flex-col justify-center sm:w-60">
+              <p>Ultricies</p>
+              <h4 class="text-lg font-bold">23,578</h4>
+            </div>
+            <div
+              class="p-3 bg-opacity-50 border border-neutral-off-white w-32 h-32 flex flex-col justify-center sm:w-60">
+              <p>Fermentum</p>
+              <h4 class="text-lg font-bold">12,702</h4>
+            </div>
           </div>
         </div>
-      </header>
+      </article>
 
-      <main>
-        <!-- SECTION - Features -->
-        <section id="features" class="min-h flex flex-col gap-4 mb-10">
-          <article
-            class="p-5 rounded-lg text-center flex flex-col items-center gap-5"
-          >
-            <img
-              src="images/Pencil.jpg"
-              alt="Pencil Icon"
-              class="w-16 h-16 mx-auto"
-            />
-            <h3
-              class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris"
-            >
-              Consectetur Risus
-            </h3>
-            <p class="text-primary-gris">
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
-              id elit non mi porta gravida at eget metus. Nullam id dolor id
-              nibh ultricies vehicula ut id elit.
+      <!-- SECTION 3 : My blog -->
+      <article id="my-blog" class="px-16 flex flex-col gap-4">
+        <h1 class="text-3xl font-arvo-regular">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </h1>
+
+        <p>
+          Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+          eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius
+          blandit sit amet non magna. Donec sed odio dui. Curabitur blandit
+          tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id
+          elit. Etiam porta sem malesuada magna mollis euismod. Donec id elit
+          non mi porta gravida at eget metus. Donec id elit non mi porta
+          gravida at eget metus. Integer posuere erat a ante venenatis dapibus
+          posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+          risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+          Nulla vitae elit libero, a pharetra augue.
+        </p>
+
+        <a href="#" class="bg-primary-red p-3 text-neutral-off-white w-1/2 text-center tracking-[0.5em] rounded-md">Take
+          a Look >>
+        </a>
+
+        <img src="images/1200.jpeg" alt="Byclicle velo" />
+      </article>
+
+      <!-- SECTION 4 : My blog -->
+
+      <article id="my-blog" class="bg-My-history bg-cover bg-center w-full px-10 text-neutral-off-white">
+        <div class="bg-primary-cyan bg-opacity-40 p-5 w-full h-full">
+          <div class="mt-5 flex flex-col items-center gap-5 mb-8 sm:items-start">
+            <p class="italic font-thin">
+              Donec sed odio dui. Integer posuere erat a ante venenatis
+              dapibus posuere velit aliquet. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et.
             </p>
-          </article>
 
-          <article
-            class="p-5 rounded-lg text-center flex flex-col items-center gap-5"
-          >
-            <img
-              src="images/camera.jpg"
-              alt="Camera Icon"
-              class="w-16 h-16 mx-auto"
-            />
-            <h3
-              class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris"
-            >
-              Ultricies Aenean
-            </h3>
-            <p class="text-primary-gris">
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-              Integer posuere erat a ante venenatis dapibus posuere velit
-              aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+            <p class="italic">
+              Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+              venenatis vestibulum. Duis mollis, est non commodo luctus, nisi
+              erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu
+              leo quam. Pellentesque ornare sem lacinia quam venenatis
+              vestibulum. Cras justo odio, dapibus ac facilisis in, egestas
+              eget quam. Praesent commodo cursus magna, vel scelerisque nisl
+              consectetur et.
             </p>
-          </article>
-          <article
-            class="p-5 rounded-lg text-center flex flex-col items-center gap-5"
-          >
-            <img
-              src="images/flag.jpg"
-              alt="Flag Icon"
-              class="w-16 h-16 mx-auto"
-            />
-            <h3
-              class="text-3xl font-bold font-arvo-regular mb-2 text-primary-gris"
-            >
-              Cras Sollicitudin
-            </h3>
-            <p class="text-primary-gris">
-              Etiam porta sem malesuada magna mollis euismod. Aenean eu leo
-              quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-              Maecenas faucibus mollis interdum.
+
+            <h2 class="font-arvo-regular font-extralight mr-20">
+              ~ Fermentum Dapibus
+            </h2>
+
+            <p>
+              Nibh Etiam Risus Bibendum Nullam id dolor id nibh ultricies
+              vehicula ut id elit.
             </p>
-          </article>
-        </section>
-
-        <!-- SECTION 2 : About me -->
-        <article
-          id="about-me"
-          class="bg-About-me bg-cover bg-center w-full px-10 text-neutral-off-white mb-8"
-        >
-          <div class="bg-primary-cyan bg-opacity-40 p-5 w-full">
-            <div class="mt-5 flex flex-col items-center gap-5 mb-8 sm:items-start">
-              <h2 class="text-3xl font-arvo-regular">
-                Lingula Mattis Ornare Ultricies
-              </h2>
-              <h3 class="text-lg font-bold">
-                Pellentesque Cursus Amet Parturient Etiam
-              </h3>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
-              </p>
-            </div>
-
-            <div class="flex flex-col items-center text-center gap-5">
-              <div
-                class="p-3 bg-opacity-50 border border-neutral-off-white w-32 min-h-32 flex flex-col justify-center sm:w-60"
-              >
-                <p>Ultricies</p>
-                <h4 class="text-lg font-bold">23,578</h4>
-              </div>
-              <div
-                class="p-3 bg-opacity-50 border border-neutral-off-white w-32 h-32 flex flex-col justify-center sm:w-60"
-              >
-                <p>Fermentum</p>
-                <h4 class="text-lg font-bold">12,702</h4>
-              </div>
-            </div>
           </div>
-        </article>
+        </div>
+      </article>
 
-        <!-- SECTION 3 : My blog -->
-        <article id="my-blog" class="px-16 flex flex-col gap-4">
-          <h1 class="text-3xl font-arvo-regular">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </h1>
+      <!-- SECTION 5 : MY PHOTOS-->
+      <section id="my-photos" class="my-20 flex flex-col gap-y-2 sm:grid grid-cols-3 gap-5 h-full">
+        <img src="/images/enceinte.jpeg" alt="enceinte" />
+        <img src="/images/fuji.jpeg" alt="mont fuji" class="row-span-5" />
+        <img src="/images/pont.jpeg" alt="Pont rouge" class="row-span-3" />
+        <img src="/images/alone.jpeg" alt="personne seule" class="row-span-2 row-start-2" />
+        <img src="/images/photograph.jpeg" alt="personne seule" class="row-start-4" />
+        <img src="/images/avion.jpeg" alt="avion crash" class="row-span-2 col-start-3 row-start-4" />
+        <img src="/images/motel.jpeg" alt="affiche motel" class="row-start-5" />
+      </section>
 
-          <p>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius
-            blandit sit amet non magna. Donec sed odio dui. Curabitur blandit
-            tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id
-            elit. Etiam porta sem malesuada magna mollis euismod. Donec id elit
-            non mi porta gravida at eget metus. Donec id elit non mi porta
-            gravida at eget metus. Integer posuere erat a ante venenatis dapibus
-            posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo,
-            tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-            risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-            Nulla vitae elit libero, a pharetra augue.
-          </p>
 
-          <a
-            href="#"
-            class="bg-primary-red p-3 text-neutral-off-white w-1/2 text-center tracking-[0.5em] rounded-md"
-            >Take a Look >>
-          </a>
+      <!-- SECTION 5 : LOGO-->
+      <section id="LOGO=" class="my-20 flex flex-col gap-3 p-10">
+        <img src="/images/advantage.jpg" alt="logo advantage" />
+        <img src="/images/company.jpg" alt="lOGO company name" />
+        <img src="/images/parallon.jpg" alt="Logo parallon" />
+        <img src="/images/logo doigt.jpg" alt="Logo doigt compagny name" />
+        <img src="/images/squarespace.png" alt="Logo squarespace" />
+      </section>
 
-          <img src="images/1200.jpeg" alt="Byclicle velo" />
-        </article>
-
-        <!-- SECTION 4 : My blog -->
-
-        <article
-          id="my-blog"
-          class="bg-My-history bg-cover bg-center w-full px-10 text-neutral-off-white"
-        >
-          <div class="bg-primary-cyan bg-opacity-40 p-5 w-full h-full">
-            <div class="mt-5 flex flex-col items-center gap-5 mb-8 sm:items-start">
-              <p class="italic font-thin">
-                Donec sed odio dui. Integer posuere erat a ante venenatis
-                dapibus posuere velit aliquet. Praesent commodo cursus magna,
-                vel scelerisque nisl consectetur et.
-              </p>
-
-              <p class="italic">
-                Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-                venenatis vestibulum. Duis mollis, est non commodo luctus, nisi
-                erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu
-                leo quam. Pellentesque ornare sem lacinia quam venenatis
-                vestibulum. Cras justo odio, dapibus ac facilisis in, egestas
-                eget quam. Praesent commodo cursus magna, vel scelerisque nisl
-                consectetur et.
-              </p>
-
-              <h2 class="font-arvo-regular font-extralight mr-20">
-                ~ Fermentum Dapibus
-              </h2>
-
-              <p>
-                Nibh Etiam Risus Bibendum Nullam id dolor id nibh ultricies
-                vehicula ut id elit.
-              </p>
-            </div>
-          </div>
-        </article>
-
-        <!-- SECTION 5 : MY PHOTOS-->
-        <section id="my-photos=" class="my-20 flex flex-col gap-3">
-          <img src="/images/enceinte.jpeg" alt="enceinte" class="" />
-          <img src="/images/fuji.jpeg" alt="mont fuji" />
-          <img src="/images/pont.jpeg" alt="Pont rouge" />
-          <img src="/images/alone.jpeg" alt="personne tenant une camera" />
-          <img src="/images/avion.jpeg" alt="avion crash" />
-          <img src="/images/motel.jpeg" alt="affiche motel" />
-        </section>
-
-        <!-- SECTION 5 : LOGO-->
-        <section id="LOGO=" class="my-20 flex flex-col gap-3 p-10">
-          <img src="/images/advantage.jpg" alt="logo advantage" />
-          <img src="/images/company.jpg" alt="lOGO company name" />
-          <img src="/images/parallon.jpg" alt="Logo parallon" />
-          <img src="/images/logo doigt.jpg" alt="Logo doigt compagny name" />
-          <img src="/images/squarespace.png" alt="Logo squarespace" />
-        </section>
-
-        <!-- SECTION 7 : Newsletter -->
-        <form
-          id="Newsletter"
-          class="bg-Newsletter bg-[length:1800px_2500px] w-full text-neutral-off-white flex flex-col gap-5"
-        >
+      <!-- SECTION 7 : Newsletter -->
+      <form id="Newsletter"
+        class="bg-Newsletter bg-[length:1800px_2500px] w-full text-neutral-off-white flex flex-col gap-5">
         <div class=" bg-primary-gris-sombre bg-opacity-40 w-full flex flex-col gap-5 p-10">
           <div>
             <h2 class="text-3xl font-arvo-regular">
@@ -285,31 +236,32 @@
               consectetur et.
             </p>
           </div>
-            
+
           <div>
-            <input class="p-2" type="text" placeholder="Your Email Here..." name="name" required>
+            <input class="p-2 sm:w-[100%]" type="text" placeholder="Your Email Here..." name="name" required>
           </div>
 
-          <div class="bg-primary-red p-2 flex w-[70%]">
+          <div class="bg-primary-red p-2 flex justify-center w-[70%] sm:w-[25%]">
             <input type="submit" value="Subscribe Newsletter">
           </div>
         </div>
         </section>
-      </main>
-      <footer class="bg-primary-gris-sombre text-neutral-off-white flex flex-col p-5 py-10 gap-10">
-        <h2 class="text-3xl font-arvo-regular">Your Logo</h2> 
-        
-       <p> © 2016 Your Company. Designed and Developed by <span class="text-primary-cyan">The Maitre jet
-        d’ail </span> </p>
+    </main>
+    <footer class="bg-primary-gris-sombre text-neutral-off-white flex flex-col p-5 py-10 gap-10">
+      <h2 class="text-3xl font-arvo-regular">Your Logo</h2>
 
-        <div class="flex flex-row gap-5 w-3 h-3 ml-28">
-          <img src="/images/facebook.svg" alt="Logo facebook">
-          <img src="/images/twitter.svg" alt="Logo twitter">
-          <img src="/images/tumbler.svg" alt="Logo tumbler">
-          <img src="/images/github.svg" alt="Logo github">
-          <img src="/images/basketball.svg" alt="Logo Dribble">
-        </div>
-      </footer>
-    </div>
-  </body>
+      <p> © 2016 Your Company. Designed and Developed by <span class="text-primary-cyan">The Maitre jet
+          d’ail </span> </p>
+
+      <div class="flex justify-end gap-5">
+        <img src="/images/facebook.svg" alt="Logo facebook" class="w-3 h-3">
+        <img src="/images/twitter.svg" alt="Logo twitter" class="w-3 h-3">
+        <img src="/images/tumbler.svg" alt="Logo tumbler" class="w-3 h-3">
+        <img src="/images/github.svg" alt="Logo github" class="w-3 h-3">
+        <img src="/images/basketball.svg" alt="Logo Dribble" class="w-3 h-3">
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
